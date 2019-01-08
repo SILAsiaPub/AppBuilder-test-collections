@@ -8,3 +8,8 @@ Each collection should have a readme.md that outlines what is being tested. It s
 If you want to link to another collection then use teh World English Bible.
 
 This is a work in progress and contributions are welcome.
+
+| Test Item | Win And | Mac Droid | Mac iOS |
+| --- | --- | --- | --- |
+| Square bracket before MD hyperlink | P | Y |  
+|
