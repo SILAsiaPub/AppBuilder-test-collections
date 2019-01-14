@@ -1,0 +1,9 @@
+\id MAT test cp and vp markers
+\h alt verse publishing vp
+\mt1 alt verse publishing vp
+\mt2 sub title
+\c 1
+\cp ᪑
+\s This is a section header after the cp marker
+\p
+\v 1 \vp ᪑\vp*This is a verse after the alternate vp character markup.
