@@ -9,7 +9,6 @@ If you want to link to another collection then use teh World English Bible.
 
 This is a work in progress and contributions are welcome.
 
-| Test Item | Win And | Mac Droid | Mac iOS |
-| --- | --- | --- | --- |
-| Square bracket before MD hyperlink | P | Y |  
-|
+Please see score sheet: [Score card](PassFailNotes.md)
+
+
