@@ -1,0 +1,26 @@
+<b>%app-name%</b>
+
+<b>Text</b>
+I tested: This is a <b>PNG</b> <b>png</b> test to see if the words are preserved.
+The above renders correctly in 5.0.
+
+I tested: This is a <b>JPG</b> <b>jpg</b> test to see if the words are preserved.
+The above renders correctly in 5.0.
+
+I tested: This is a <b>GIF</b> <b>gif</b> test to see if the words are preserved.
+The above renders correctly in 5.0.
+
+Text with a URL link [link](http://xxx.xx) in a line of text
+The above renders correctly in 5.0.
+
+Text with a phone link [phone link](tel:912341234) in a line of text
+The above renders correctly in 5.0.
+
+Text with a email link [email link](email:someone@somewhere.org) in a line of text
+This also produces an app crash.
+
+I also tested: This tests [link](C01/MAT) in a line of text
+This produces an app crash.
+
+I also tested: This tests [link]() in a line of text
+This also produces an app crash.

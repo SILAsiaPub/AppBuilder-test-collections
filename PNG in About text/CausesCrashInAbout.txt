@@ -1,0 +1,6 @@
+I also tested: This tests [link](C01/MAT) in a line of text
+This produces an app crash.
+I also tested: This tests [link]() in a line of text
+This also produces an app crash.
+Text with a phone link [phone link](tel:912341234) in a line of text
+Text with a email link [email link](email:someone@somewhere.org) in a line of text
