@@ -1,0 +1,58 @@
+<b>%app-name%</b>
+
+<b>Text</b>
+I tested: This is a <b>PNG</b> <b>png</b> test to see if the words are preserved.
+The above renders correctly in 5.0.
+
+I tested: This is a <b>JPG</b> <b>jpg</b> test to see if the words are preserved.
+The above renders correctly in 5.0.
+
+I tested: This is a <b>GIF</b> <b>gif</b> test to see if the words are preserved.
+The above renders correctly in 5.0.
+
+<i>Italic text</i>
+
+<u>Underlined text</u>
+
+<img width="80%" src="fig1.png"/>
+Image above
+
+Text with a URL link [link](http://xxx.xx) in a line of text
+The above renders correctly in 5.0.
+
+Text with a phone link [phone link](tel:912341234) in a line of text
+The above renders correctly in 5.0.
+
+Text with a email link [email link](mailto:someone@somewhere.org) in a line of text
+
+<div align="center">This is centered</div>
+<div align="left">This is left aligned</div>
+<div align="right">This is right aligned</div>
+To center an image:
+<div align="center"><img width="75%" src="fig1.png"/></div>
+
+<div class="q2">This is styled as poetry</div>
+
+<span style="font-family:font1;">This is in font1</span>
+<span style="font-family:font2;">This is in font2</span>
+
+Bad telephone [72348706](72348706)
+
+Incomplete MD [no linkin second braces]()
+
+To display copyright information for text, audio and images:
+text copyright,  for collection C08 = %copyright-text:C08% 
+ audio copyright, for collection C08 = %copyright-audio:C08%
+ images copyright, for collection C08 = %copyright-images:C08%
+
+
+To display license information for text, audio and images:
+
+text license
+%license-text:C08%
+
+audio license
+%license-audio:C08% 
+
+images license
+%license-images:C08%
