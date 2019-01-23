@@ -1,6 +1,13 @@
-<b>%app-name%</b>
+App Name that is bolded <b>%app-name%</b>
 
-<b>Text</b>
+This is the app versions: %version-name%
+
+<b>Bold Text</b>
+
+<i>Italic text</i>
+
+<u>Underlined text</u>
+
 I tested: This is a <b>PNG</b> <b>png</b> test to see if the words are preserved.
 The above renders correctly in 5.0.
 
@@ -9,10 +16,6 @@ The above renders correctly in 5.0.
 
 I tested: This is a <b>GIF</b> <b>gif</b> test to see if the words are preserved.
 The above renders correctly in 5.0.
-
-<i>Italic text</i>
-
-<u>Underlined text</u>
 
 <img width="80%" src="fig1.png"/>
 Image above
@@ -38,7 +41,7 @@ To center an image:
 
 Bad telephone [72348706](72348706)
 
-Incomplete MD [no linkin second braces]()
+Incomplete MD [no link in second braces]()
 
 To display copyright information for text, audio and images:
 text copyright,  for collection C08 = %copyright-text:C08% 
