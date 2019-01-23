@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contents>
+  <feature name="show-titles" value="true" />
+  <feature name="show-subtitles" value="true" />
+  <feature name="show-references" value="true" />
+  <feature name="launch-action" value="contents" />
+  <feature name="navigation-type" value="up" />
+
+  <contents-items>
+    <contents-item id="1">
+      <title lang="default">Thumbnail repeat image problems</title>
+      <link type="reference" target="MAT" />
+      <layout mode="single">
+        <layout-collection id="C01"/>
+      </layout>
+    </contents-item>
+
+    <contents-item id="2">
+      <title lang="default">CP and VP markers</title>
+      <link type="reference" target="MAT" />
+      <layout mode="single">
+        <layout-collection id="C02"/>
+      </layout>
+    </contents-item>
+
+    <contents-item id="3">
+      <title lang="default">Russina John</title>
+      <link type="reference" target="1JN" />
+      <layout mode="single">
+        <layout-collection id="C03"/>
+      </layout>
+    </contents-item>
+
+    <contents-item id="4">
+      <title lang="default">HTML source file</title>
+      <link type="reference" target="B002" />
+      <layout mode="single">
+        <layout-collection id="C04"/>
+      </layout>
+    </contents-item>
+
+    <contents-item id="5">
+      <title lang="default">Markdown square brackets</title>
+      <link type="reference" target="MAT" />
+      <layout mode="single">
+        <layout-collection id="C05"/>
+      </layout>
+    </contents-item>
+
+    <contents-item id="6">
+      <title lang="default">Search Zion</title>
+      <link type="reference" target="MAT" />
+      <layout mode="single">
+        <layout-collection id="C06"/>
+      </layout>
+    </contents-item>
+
+    <contents-item id="7">
+      <title lang="default">Check fp in footnote</title>
+      <link type="reference" target="MAT" />
+      <layout mode="single">
+        <layout-collection id="C07"/>
+      </layout>
+    </contents-item>
+
+    <contents-item id="8">
+      <title lang="default">MD internal and external links</title>
+      <link type="reference" target="MAT" />
+      <layout mode="single">
+        <layout-collection id="C09"/>
+      </layout>
+    </contents-item>
+
+    <contents-item id="9">
+      <title lang="default">WEB NT</title>
+      <link type="reference" target="MAT" />
+      <layout mode="single">
+        <layout-collection id="C08"/>
+      </layout>
+    </contents-item>
+
+    <contents-item id="10">
+      <title lang="default">Links to single and multiverse</title>
+      <link type="reference" target="MAT" />
+      <layout mode="single">
+        <layout-collection id="C10"/>
+      </layout>
+    </contents-item>
+
+    <contents-item id="11">
+      <title lang="default">CrossFef with 2 periods</title>
+      <link type="reference" target="MRK" />
+      <layout mode="single">
+        <layout-collection id="C11"/>
+      </layout>
+    </contents-item>
+  </contents-items>
+
+  <contents-screens>
+    <contents-screen id="1">
+      <title lang="default">Home</title>
+      <items>
+        <item id="1" />
+        <item id="2" />
+        <item id="3" />
+        <item id="4" />
+        <item id="5" />
+        <item id="6" />
+        <item id="7" />
+        <item id="9" />
+        <item id="8" />
+        <item id="10" />
+        <item id="11" />
+      </items>
+    </contents-screen>
+  </contents-screens>
+</contents>

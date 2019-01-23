@@ -1,0 +1,12 @@
+\id MAT Test square brackets removal
+\h Matthew
+\mt1 Matthew
+\c 1
+\p 
+\v 1 Text before a note in square brackets [Note: This is the note in square brackets] Text between square brackets [This is the link to Mat 2:1](MAT.2.1)
+\v 2 Text before a link [This is the link to Mat 2:1.](MAT.2.1) Text between square brackets [This is another link to Mat 2:1](MAT.2.1)
+\v 3 Text before a link [This is the link to Mat 2:1.](MAT.2.1) Text after link and before a note [Note: This is a note].
+\c 2
+\p
+\v 1 This is the text of Matthew chapter 2 that is linked to from chapter one via Markdown in a verse.
+\v 2 This is the second verse that is not linked to.
