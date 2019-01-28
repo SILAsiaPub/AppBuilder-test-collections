@@ -23,6 +23,7 @@ Image above
 Text with a URL link [link](http://xxx.xx) in a line of text
 The above renders correctly in 5.0.
 
+
 Text with a phone link [phone link](tel:912341234) in a line of text
 The above renders correctly in 5.0.
 
@@ -39,7 +40,9 @@ To center an image:
 <span style="font-family:font1;">This is in font1</span>
 <span style="font-family:font2;">This is in font2</span>
 
+Testing known forms that caused problems:
 Bad telephone [72348706](72348706)
+Empty link [link]() 
 
 Incomplete MD [no link in second braces]()
 
@@ -59,3 +62,7 @@ audio license
 
 images license
 %license-images:C08%
+
+The following two items cause Crashes
+This cross collection link Mat 2 [link](C01/MAT.2)
+This cross collection link to WEB MRK [link](C08/MRK)
