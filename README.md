@@ -13,8 +13,8 @@ Please see score sheet: [Score card](PassFailNotes.md)
 
 ## Failing tests
 
-- [Markdown cross collection links](MDx internal and cross collection links.md)
-- [Cross Ref to whole chapter](Cwc-CrossRef to whole Chapter.md) 
+- [Markdown cross collection links](MDx-internal-and-cross-collection-links.md)
+- [Cross Ref to whole chapter](Cwc-CrossRef-to-whole-Chapter.md) 
 
 ## Passing test results
 
