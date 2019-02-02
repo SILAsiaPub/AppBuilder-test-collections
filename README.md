@@ -11,4 +11,11 @@ This is a work in progress and contributions are welcome.
 
 Please see score sheet: [Score card](PassFailNotes.md)
 
+## Failing tests
 
+- [Markdown cross collection links](MDx internal and cross collection links.md)
+- [Cross Ref to whole chapter](Cwc-CrossRef to whole Chapter.md) 
+
+## Passing test results
+
+- coming soon
