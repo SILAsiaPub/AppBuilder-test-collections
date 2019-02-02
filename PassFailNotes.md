@@ -12,7 +12,7 @@
 | 5.1  | Cross ref with 2 periods like: apo. Ka. 1:2 | pass | ? |
 | 5.0  | Single verse footnote showing | pass | ? |
 |   | MD internal and [cross collection links](MDx internal and cross collection links.md) | partial | ? | Gets correct text but jumps to book in current collection not in remote collection.
-|   | Cross Ref to [whole chapter](Cwc-CrossRef to whole Chapter.md) | pass | ? | Worked in the past. Does not work 4.6.1, 4.7, 5.0, 5.1
+|   | Cross Ref to [whole chapter](Cwc-CrossRef to whole Chapter.md) | partial | ? | Worked in the past. Does not work 4.6.1, 4.7, 5.0, 5.1
 
 ## About text tests for version 5.1
 
