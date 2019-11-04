@@ -1,0 +1,11 @@
+\id MAT Testing for reference format
+\h Mathew
+\mt1 Mat test for reference links
+\c 1
+\s Testing for bk 1:1 and bk 1:1-5 bk 1:2,5 format
+\r Mrk 1:1; Mrk 1:1-5; Mrk 1:2,5
+\s Testing for bk 1.1 and bk 1.1-5 bk 1.2,5 formats
+\r Mrk 1.1; Mrk 1.1-5; Mrk 1.2,5
+\s Testing for Luxemburgese bk 1,1 and bk 1,1.8 formats
+\p Setting Chapter-Verse separator set to comma. Verse list separator set to period.
+\r Mrk 1,1; Mrk 1,1-5; Mrk 1,2.5

@@ -1,0 +1,11 @@
+\id MAT multiple big picture test
+\h Mat
+\page 1
+\m \fig page.PNG\fig*
+\page 2
+\img capture1.PNG
+\m text after \img picture
+\page 7
+\m \fig capture1.PNG\fig* \fig capture2.PNG\fig* \fig capture2.PNG\fig*
+\page 8
+\m \fig capture1.PNG\fig* text after fig image

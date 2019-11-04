@@ -1,0 +1,11 @@
+\id MRK multiple big picture test
+\h Mark
+\c 1
+\m \fig page.PNG\fig*
+\c 2
+\img capture1.PNG
+\m text after img picture
+\c 7
+\m \fig capture1.PNG\fig* \fig capture2.PNG\fig* \fig capture2.PNG\fig*
+\c 8
+\m \fig capture1.PNG\fig* text after fig image
