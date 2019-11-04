@@ -5,23 +5,32 @@
 \p 
 \v 1 A regular verse one
 \s One level of character markup. The next line uses forward slashes
-\q1 /qt Lorem ipsum dolor sit amet, consectetuer adipiscing elit. /qt*
-\q1 \qt Lorem ipsum dolor sit amet, consectetuer adipiscing elit. \qt*
+\q1 /qt Lorem ipsum dolor sit amet, consectetuer adipiscing elit./qt*
+\q1 \qt Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\qt*
 \b
 \s Two level markup. The next line uses forward slashes to indicate markup.
-\q1 /wj Lorem ipsum dolor sit amet, /+w consectetuer/+w*  adipiscing elit. /wj*
-\q1 \wj Lorem ipsum dolor sit amet, \+w consectetuer\+w*  adipiscing elit. \wj*
+\q1 /wj Lorem ipsum dolor sit amet, /+w consectetuer/+w*  adipiscing elit./wj*
+\q1 \wj Lorem ipsum dolor sit amet, \+w consectetuer\+w*  adipiscing elit.\wj*
 
 \b
-\s Three level markup, not supported
-\q1 /wj /+wj Lorem ipsum dolor sit amet, /+w consectetuer/+w*  adipiscing elit. /wj*/qt*
-\q1 \wj \+wj Lorem ipsum dolor sit amet, \+w consectetuer\+w*  adipiscing elit. \wj*\qt*
+\s Three level markup, test options
+\q1 /qt /+wj Lorem ipsum dolor sit amet, /+w consectetuer/+w*  adipiscing elit./+wj*/qt*
+\q1 \qt \+wj Lorem ipsum dolor sit amet, \+w consectetuer\+w*  adipiscing elit.\+wj*\qt*
+\b
+\q1 /qt /+wj Lorem ipsum dolor sit amet, /w consectetuer/w*  adipiscing elit./+wj*/qt*
+\q1 \qt \+wj Lorem ipsum dolor sit amet, \w consectetuer\w*  adipiscing elit.\+wj*\qt*
+\b
+\q1 /qt /wj Lorem ipsum dolor sit amet, /+w consectetuer/+w*  adipiscing elit./wj*/qt*
+\q1 \qt \wj Lorem ipsum dolor sit amet, \+w consectetuer\+w*  adipiscing elit.\wj*\qt*
+\b
+\q1 /qt /wj Lorem ipsum dolor sit amet, /w consectetuer/w*  adipiscing elit./wj*/qt*
+\q1 \qt \wj Lorem ipsum dolor sit amet, \w consectetuer\w*  adipiscing elit.\wj*\qt*
 
 
 \b
 \s Simulated three level markup, done by turning off secondary or base markup
-\q1 /qt /+wj Lorem ipsum dolor sit amet,/+wj* /+w consectetuer/+w* /+wj adipiscing elit., /+wj*/qt*
-\q1 \qt \+wj Lorem ipsum dolor sit amet,\+wj* \+w consectetuer\+w* \+wj adipiscing elit., \+wj*\qt*
+\q1 /qt /+wj Lorem ipsum dolor sit amet,/+wj* /+w consectetuer/+w* /+wj adipiscing elit./+wj*/qt*
+\q1 \qt \+wj Lorem ipsum dolor sit amet,\+wj* \+w consectetuer\+w* \+wj adipiscing elit.\+wj*\qt*
 \b
-\q1 /qt /+wj Lorem ipsum dolor sit amet,/+wj*/qt* /wj /+w consectetuer/+w*/wj* /qt /+wj adipiscing elit. /+wj*/qt*
-\q1 \qt \+wj Lorem ipsum dolor sit amet,\+wj*\qt* \wj \+w consectetuer\+w*\wj* \qt \+wj adipiscing elit. \+wj*\qt*
+\q1 /qt /+wj Lorem ipsum dolor sit amet,/+wj*/qt* /wj /+w consectetuer/+w*/wj* /qt /+wj adipiscing elit./+wj*/qt*
+\q1 \qt \+wj Lorem ipsum dolor sit amet,\+wj*\qt* \wj \+w consectetuer\+w*\wj* \qt \+wj adipiscing elit.\+wj*\qt*
