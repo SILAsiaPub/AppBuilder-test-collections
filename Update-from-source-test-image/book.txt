@@ -1,3 +1,4 @@
+
 \id bk1
 \h Test Image change
 \mt1 Test if image changes when Update from source.
@@ -5,4 +6,5 @@
 \img fig2.png
 \m this is fig1 in the original
 \page 2
-\img fig1.png
+\img fig1.png||||||| .r0
+
