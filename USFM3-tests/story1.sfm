@@ -1,0 +1,15 @@
+\id str1
+\h Story 1
+\mt1 Story 1
+\c 1
+\s testing GLO markup
+\p This is a story
+\m This is a question about the story? \w Answer|Answer 1\w* or second \w Answer|Answer 2\w*
+\c 2
+\s testing Markdown markup
+\p This is a story  2
+\m This is a question about the story? [See answer 2](ANS 2)
+\c 3
+\s testing jmp markup
+\p This is a story  2
+\m This is a question about the story? \jmp See answer|answer1\jmp*

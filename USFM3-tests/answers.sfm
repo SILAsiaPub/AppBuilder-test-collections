@@ -1,0 +1,9 @@
+\id ANS
+\h Answers
+\mt1 Answers
+\c 1
+\p This is the answer to question 1
+\c 2
+\p This is the answer to question 2
+\c 3
+\p \jmp |ANS#answer1\jmp* This is the answer to question 3
