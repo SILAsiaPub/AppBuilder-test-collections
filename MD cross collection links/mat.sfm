@@ -9,5 +9,9 @@
 \v 2 Another verse with a link to Mark [jump to Mark 1:2 in this collection](MRK.1.2) this link works
 \p [Jump to WEBnt with webn MAT.2.1](webn.MAT.2.1)  this does not work in 8.6.6
 \p [Jump to WEBnt with C08 MAT.2.2](C08.MAT.2.2)  this does  work 8.6.6
-\p [Jump to WEBnt with C08/MAT.2.2](C08/MAT.2.2)  this does  work 8.6.6
-\p [Jump to WEBnt with C08/MAT 2:2](C08/MAT.2.2)  this does  work 8.6.6
+\p [Jump to WEBnt with C08/MAT.2:2](C08/MAT.2:2)  this does  work 8.6.6
+\p [Jump to WEBnt with C08/MAT 2:2](C08/MAT 2:2)  this does  work 8.6.6
+\b
+
+\p [Jump to WEBnt with C08/MAT.2.21-23](C08/MAT.2.21-23)  this does  work 8.6.6
+\p [Jump to WEBnt with C08/MAT.2.21–3.3](C08/MAT.2.21–3.3)  this does not work 8.6.6
